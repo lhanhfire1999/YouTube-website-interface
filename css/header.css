@@ -1,0 +1,44 @@
+body{
+	font-family: Arial ,sans-serif;
+}
+.header-wrapper{
+	display: flex;
+	padding: 20px;
+}
+.header-wrapper .fas{
+	font-size: 20px;
+
+
+/*icon YouTube | Home button */
+}
+.header-wrapper #icon{
+	height: 24px;
+	width: 80px;
+	background-image: url(../img/icon.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 8px;
+
+}
+.header-wrapper .search-tool{
+	display: flex;
+	margin: 0 30px;
+	/*flex-grow: 1;*/
+	border: 1px solid #d3d3d3
+}
+
+.header-wrapper .search-icon{
+	width: 51px;
+	height: 26px;
+	background-color: #f8f8f8; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #d3d3d3;
+}
+#search {
+	width: 100%;
+	border: none
+}

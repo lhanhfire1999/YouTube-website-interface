@@ -1,0 +1,11 @@
+.body{
+	font-family: Arial, sans-serif;
+
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 25% 75%;
+}
+.header {
+	grid-column: 1/3;
+}
