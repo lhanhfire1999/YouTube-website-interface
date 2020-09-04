@@ -1,17 +1,21 @@
 body{
 	font-family: Arial ,sans-serif;
 }
-.header-wrapper{
+.header{
 	display: flex;
-	padding: 20px;
+	padding: 0 16px;
 }
-.header-wrapper .fas{
+
+#start .fa-align-justify{
 	font-size: 20px;
-
-
-/*icon YouTube | Home button */
 }
-.header-wrapper #icon{
+#start, #center, #end{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#start #icon-ytb{
 	height: 24px;
 	width: 80px;
 	background-image: url(../img/icon.jpg);
@@ -20,25 +24,60 @@ body{
 	display: flex;
 	justify-content: flex-end;
 	font-size: 8px;
-
 }
-.header-wrapper .search-tool{
+
+
+#center{
+	flex-grow: 1;
+}
+
+#center .search-tool{
 	display: flex;
 	margin: 0 30px;
-	/*flex-grow: 1;*/
-	border: 1px solid #d3d3d3
+	border: 1px solid #d3d3d3;
+	flex-grow: 1;
 }
 
-.header-wrapper .search-icon{
+#center #search-bar {
+	width: 100%;
+	border: none;
+}
+#center #search-icon{
 	width: 51px;
 	height: 26px;
 	background-color: #f8f8f8; 
+	border: 1px solid #d3d3d3;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid #d3d3d3;
+	
 }
-#search {
-	width: 100%;
-	border: none
+.fa-search{
+	opacity: 0.6;
 }
+#center #search-icon:hover{
+	background-color: #c3c3c3;
+}
+#center #search-icon:hover .fa-search{
+	opacity: 0.8;
+}
+
+
+
+
+#end .end-item
+{
+	padding: 8px;
+	margin-right: 10px;
+}
+#end #avatar-btn{
+	border-radius: 50%;
+	border: none;
+	background-image:url(../img/avatar.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 32px;
+	height: 32px;
+}
+
+
