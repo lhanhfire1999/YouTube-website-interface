@@ -1,0 +1,39 @@
+.main{
+	background-color: #f9f9f9;
+	font-size: 10px;
+}
+.row, .content, .content .detail, .content .detail .meta{
+	display: flex;
+}
+.content{
+	flex-direction: column;
+	margin: 0 10px 40px;
+	width: 350px;
+	height: 250px;
+}
+
+.content .video{
+	width: 100%;
+	height: 150px;
+}
+.content .detail{
+	padding-right: 24px;
+	font-size: 12px
+
+}
+.content .detail .avatar-link .avatar-icon{
+	border-radius: 50%; 
+	width: 36px;
+	height: 36px;
+	margin-top: 12px;
+	margin-right: 12px;
+
+}
+.content .detail .meta {
+	flex-direction: column;
+}
+
+.content .detail .meta h3{
+	margin: 12px 0 4px 0px;
+
+}
